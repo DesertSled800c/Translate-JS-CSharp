@@ -16,7 +16,7 @@ console.log("")
 const theNames = (names) => {
   console.log(`'The' Place Names`)
   names.map((name) => {
-   if (name.startsWith("The")) {
+   if (name.startsWith("The")) {-
      console.log(name)
    }
   })
